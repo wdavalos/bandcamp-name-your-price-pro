@@ -1,0 +1,11 @@
+{
+  "actorSpecification": 1,
+  "name": "bandcamp-name-your-price-pro",
+  "version": "0.0",
+  "buildTag": "latest",
+  "title": "Bandcamp Name Your Price Pro",
+  "description": "Find Bandcamp releases priced 'name your price' (minimum $0) and free downloads. Search by keyword or scan artist and label discographies; returns tags, dates, tracks, about and credits.",
+  "minItems": 1,
+  "output": "./output_schema.json",
+  "dockerImage": "apify/actor-node:20"
+}

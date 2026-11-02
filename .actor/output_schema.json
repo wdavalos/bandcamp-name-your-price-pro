@@ -1,0 +1,12 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "title": "Bandcamp Name Your Price Pro output",
+  "properties": {
+    "results": {
+      "type": "string",
+      "title": "Name-your-price and free releases",
+      "template": "{{links.apiDefaultDatasetUrl}}/items",
+      "description": "Bandcamp releases priced 'name your price' (minimum $0) or free. Each record contains: url, artist, albumTitle, label, pricingMode (name_your_price|free), minimumPrice, currency, releaseDate, isPreorder, tags, trackCount, totalDurationSec, tracks, license, about, credits, bandUrl and foundVia. Use for music discovery, free/NYOP deal hunting, catalog research and AI agents."
+    }
+  }
+}

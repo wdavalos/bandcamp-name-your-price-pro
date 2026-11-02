@@ -1,0 +1,52 @@
+{
+  "title": "Input",
+  "type": "object",
+  "properties": {
+    "searchQueries": {
+      "title": "Search queries",
+      "type": "array",
+      "description": "Keywords used to search Bandcamp for releases (albums). One search per query, up to 50 results each.",
+      "editor": "stringList",
+      "prefill": [
+        "ambient",
+        "lo-fi",
+        "experimental",
+        "field recording"
+      ]
+    },
+    "artistUrls": {
+      "title": "Artist or label URLs",
+      "type": "array",
+      "description": "Bandcamp artist or label page URLs (with or without /music). Every album and track in that discography is checked.",
+      "editor": "stringList"
+    },
+    "albumUrls": {
+      "title": "Album or track URLs",
+      "type": "array",
+      "description": "Direct Bandcamp album or track URLs to check.",
+      "editor": "stringList"
+    },
+    "includeFree": {
+      "title": "Include free downloads",
+      "type": "boolean",
+      "description": "Also return releases artists give away for free, not just name-your-price ones.",
+      "default": false
+    },
+    "maxItems": {
+      "title": "Max results",
+      "type": "integer",
+      "description": "Stop after this many results are pushed to the dataset.",
+      "default": 500
+    },
+    "proxyConfiguration": {
+      "title": "Proxy configuration",
+      "type": "object",
+      "description": "Apify datacenter proxy is set by default and is enough for Bandcamp. Switch to residential only if you hit rate limits.",
+      "editor": "proxy",
+      "default": {
+        "useApifyProxy": true
+      }
+    }
+  },
+  "schemaVersion": 1
+}
