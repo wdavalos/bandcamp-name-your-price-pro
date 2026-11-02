@@ -107,3 +107,8 @@ Releases without digital pricing (physical-only or paywalled) are skipped, not g
 
 **I need more than 400 characters of release notes.**
 The full text stays on Bandcamp; `about` gives you the first 400 characters to keep rows lean. Raise it for you if needed.
+
+## Links
+
+- Run it on the Apify Store: https://apify.com/red.cars/bandcamp-name-your-price-pro
+- ScraperFleet page: https://scraperfleet.com/actors/bandcamp-name-your-price-pro/
